@@ -16,7 +16,7 @@ public class Cheers {
                         }
                 counter++;
                 }
-                System.out.println("what does that spell?");
+                System.out.println("What does that spell?");
                 while (counterB < sequence) {
                         System.out.println(cheeers + "!!!");
                 counterB++;
