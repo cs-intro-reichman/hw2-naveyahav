@@ -11,8 +11,8 @@ public class CalcPi {
 			double y = 1.0/counter;
 			sum += (-x+y);
 		}
-		System.out.println("pi according to Java: " + sum*4);
-		System.out.println("approximated:     "+ Math.PI);
+		System.out.println("pi according to Java: " + Math.PI);
+		System.out.println("approximated:     "+ sum*4);
 		
 
 	
