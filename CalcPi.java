@@ -7,9 +7,7 @@ public class CalcPi {
 		int sign = -1;
 		for (int i = 0; i < sequence-1 ; i++) {
 			counter+=2;
-			System.out.println(counter);
 			double x = 1.0/counter;
-			System.out.println(x);
 			sum += (x*sign);
 			sign*=-1;
 		}
